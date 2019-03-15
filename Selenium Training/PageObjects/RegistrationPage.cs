@@ -89,7 +89,7 @@ namespace Selenium_Training.PageObjects
                 return successMessageIsDisplayed.Displayed;
             }
 
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }

@@ -16,7 +16,7 @@ namespace Selenium_Training.PageObjects
             PageFactory.InitElements(Hooks1.driver, this);
         }
 
-        [FindsBy(How = How.XPath, Using = "//*[@id='email']")]
+        [FindsBy(How = How.Id, Using = "email")]
         private IWebElement email { get; set; }
 
         public void EnterEmail(string Email)
